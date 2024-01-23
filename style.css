@@ -40,7 +40,7 @@ form{
 }
 
 
-#Botão_pesquisar{
+#botaoPesquisar {
   padding: 10px 20px;
   background-color: #138065;
   color: #fff;
@@ -62,19 +62,19 @@ form{
 }
 
 
-.search-result{
+.search-result {
   margin-bottom: 60px;
   width: 30%;
-  height: 100%;
+  height: 300px;
   border-radius: 5px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
 
 
-.search-result img{
+.search-result img {
   width: 100%;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
   transition: 0.2s ease-in-out;
 }
@@ -95,7 +95,7 @@ form{
 }
 
 
-#botão-mostrar-mais{
+#botao-mostrar-mais{
   background: #138065;
   font-size: 18px;
   border: none;

@@ -1,4 +1,4 @@
-const accessKey = 'K5M9jkeFPxG09ENsupmQFSZCixEfdcfhQmMz6Sm7ucc';
+const accessKey = "K5M9jkeFPxG09ENsupmQFSZCixEfdcfhQmMz6Sm7ucc";
 
 const formE1 = document.querySelector("form");
 const inputE1 = document.getElementById("search-input");
@@ -27,7 +27,7 @@ async function searchImages() {
     image.src = result.urls.small;
     image.alt = result.alt_description;
     const imageLink = document.createElement("a");
-    imageLink.href = result.urls.full; // Usar a URL da imagem ao invés da URL da API
+    imageLink.href = result.urls.full; 
     imageLink.target = "_blank";
     imageLink.innerText = result.alt_description;    imageWrapper.appendChild(image);
     imageWrapper.appendChild(imageLink);
